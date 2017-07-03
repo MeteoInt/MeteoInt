@@ -1,0 +1,35 @@
+.page-body{
+    padding:0px;
+}
+.page-body iframe{
+	border:none;
+	width:100%;
+	height:auto;
+}
+.mds_div{
+	 position: absolute;
+	 z-index: 0;
+	 padding-bottom: 1px;
+	 padding-left: 12px;
+	 min-height: 40px;
+	 border-bottom: 1px solid #e5e5e5;
+	 height: auto;
+	 width: 160px;
+	 float: right;
+	 top: 44px;
+	 right: 18px;
+	 display: none;
+}
+.list-group-item {
+  	padding: 0px 0px 0px 5px;
+  	cursor:pointer;
+}
+.list-group-item:hover{
+	background-color:#F5F5F5;
+}
+.menu-text{
+	margin-left: 6px;
+}
+.submenu .menu-text{
+	margin-left: 0px;
+}

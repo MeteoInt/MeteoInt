@@ -1,0 +1,29 @@
+body {
+    background-color: #f5f5f5;
+}
+.navbar-brand > img {
+    width: 130px;
+    opacity: .8;
+    margin-top: -5px;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 100%;
+}
+.homeapp-header.one-page-header {
+    box-shadow: 0 3px 1px #ebebeb;
+    background: #fff;
+    font-weight:bold;
+}
+.homeapp-header.one-page-header .navbar-nav{
+	float:right;
+}
+.one-page-header.navbar {
+    padding: 6px 0;
+    -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
+    transition: background .3s ease-in-out,padding .3s ease-in-out;
+}
+
+.homeapp-header.one-page-header .navbar-nav > li > a:hover {
+    color: #24A3EC;
+}

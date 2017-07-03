@@ -1,0 +1,64 @@
+{"menus":[
+			{"id":0,
+		     "text":"地图",
+		     "link":"",
+		     "icons":"iconfont icon-ditu",
+		     "mds":[],
+		      "submenus":[
+		     	{"id":4,
+		     	 "text":"叠加图层",
+		     	 "link":"http://192.168.1.100:8080/index",
+		     	 "icons":"",
+		     	 "mds":[{"text":"接口说明","link":"../mds/test.md"},
+		     		{"text":"调用说明","link":"../mds/test1.md"}
+		     	   ]
+		     	},
+		     	{"id":5,
+		     	 "text":"要素",
+		     	 "link":"http://192.168.1.100:8080/index",
+		     	 "icons":"",
+		     	 "mds":[]
+		     	}
+		      ]
+		    },
+		    {"id":1,
+		     "text":"雷达",
+		     "link":"http://10.1.64.154/",
+		     "icons":"iconfont icon-radar",
+		     "mds":[{"text":"接口说明","link":"../mds/test.md"},
+		     		{"text":"调用说明","link":"../mds/test1.md"}
+		     	   ]
+		    },
+		    {"id":2,
+		     "text":"卫星",
+		     "link":"http://10.1.64.146/",
+		     "icons":"iconfont icon-weixing",
+		     "mds":[{"text":"接口说明","link":"../mds/test.md"},
+		     		{"text":"调用说明","link":"../mds/test1.md"}
+		     	   ]
+		    },
+		    {"id":3,
+		     "text":"API",
+		     "link":"",
+		     "icons":"iconfont icon-kfapi",
+		     "mds":[],
+		     "submenus":[
+		     	{"id":17,
+		     	 "text":"编辑API",
+		     	 "link":"editMd.html",
+		     	 "icons":"menu-icon glyphicon glyphicon-pencil",
+		     	 "mds":[{"text":"接口说明","link":"../mds/test.md"},
+		     		{"text":"调用说明","link":"../mds/test1.md"}
+		     	   ]
+		     	},
+		     	{"id":19,
+		     	 "text":"接口列表",
+		     	 "link":"apis.html",
+		     	 "icons":"menu-icon fa fa-table",
+		     	 "mds":[]
+		     	}
+		      ]
+		    }
+		 ]
+}
+		    		    
